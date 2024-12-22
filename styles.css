@@ -44,10 +44,36 @@
 .container {
     width: fit-content;
     margin: 8px auto;
+    position: relative;
 }
 
 .slide {
     height: 430px;
     width: 1000px;
     border-radius: 10px;
+}
+
+.icon-action {
+    height: 80px;
+    position: absolute;
+    height: 42px;
+    top: 41%;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.icon-prev {
+    left: 0;
+}
+
+.icon-prev:hover{
+    transform: scale(0.6);
+}
+
+.icon-next{
+    right: 0; 
+}
+
+.icon-next:hover{
+    transform: scale(0.6);
 }
