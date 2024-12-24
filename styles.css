@@ -37,7 +37,7 @@
     background-color: #e0e0eb;
 }
 
-.search:hover{
+.search:hover {
     border: 2.5px solid black;
 }
 
@@ -53,7 +53,7 @@
     cursor: pointer;
 }
 
-.search-btn:hover{
+.search-btn:hover {
     color: black;
     background-color: #1a8cff;
     transition: 1s;
@@ -101,21 +101,41 @@
     transform: scale(0.6);
 }
 
-.logo-container{
+.logo-container {
     display: flex;
     justify-content: center;
+    margin-bottom: 40px;
 }
 
-.brands{
+.brands {
     margin-top: 30px;
     margin-left: 60px;
     font-size: 25px;
-    font-weight: bold;
 }
 
-.brand-logo{
+.brand-logo {
     margin: 10px 30px;
     height: 110px;
     width: 110px;
     object-fit: contain;
+}
+
+.adv {
+    display: flex;
+    margin: 10px auto;
+    margin-bottom: 50px;
+}
+
+.text {
+    margin: 10px 80px;
+}
+
+.vl {
+    border-left: 5px solid black;
+    height: 80px;
+    margin-left: 230px;
+}
+
+.text-1{
+    margin: 30px 50px;
 }
