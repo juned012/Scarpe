@@ -100,3 +100,22 @@
 .icon-next:hover {
     transform: scale(0.6);
 }
+
+.logo-container{
+    display: flex;
+    justify-content: center;
+}
+
+.brands{
+    margin-top: 30px;
+    margin-left: 60px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.brand-logo{
+    margin: 10px 30px;
+    height: 110px;
+    width: 110px;
+    object-fit: contain;
+}
