@@ -46,7 +46,7 @@
     border: none;
     border-radius: 5px;
     color: white;
-    background-color: #004d99;
+    background-color: black;
     margin: 0 10px;
     width: 80px;
     font-weight: bold;
@@ -152,7 +152,7 @@
 }
 
 .menu-item{
-    padding: 13px;
+    padding: 20px;
     cursor: pointer;
 }
 
@@ -225,7 +225,7 @@
   .card-price {
     font-size: 1.2rem;
     font-weight: bold;
-    margin-bottom: 20px;
+    margin-bottom: 12px;
   }
 
   .card-button {
