@@ -195,7 +195,8 @@
   }
   
   .card:hover {
-    transform: translateY(-10px);
+    transform: translateY(-12px);
+    transition: 0.5s;
   }
   
   .card-image {
@@ -221,10 +222,16 @@
     margin-bottom: 15px;
   }
   
+  .card-price {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+
   .card-button {
     display: inline-block;
     padding: 10px 15px;
-    background-color: #007BFF;
+    background-color: black;
     color: white;
     text-decoration: none;
     border-radius: 5px;
@@ -232,6 +239,6 @@
   }
   
   .card-button:hover {
-    background-color: #0056b3;
+    background-color: grey;
     transition: 0.5s;
   }
