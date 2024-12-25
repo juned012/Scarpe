@@ -104,7 +104,7 @@
 .logo-container {
     display: flex;
     justify-content: center;
-    margin-bottom: 40px;
+    margin-bottom: 50px;
 }
 
 .brands {
@@ -140,10 +140,27 @@
     color: grey;
 }
 
+.text-1:hover{
+    color: black;
+    transition: 0.7s;
+}
+
 .our-guarantees{
     display: flex;
     justify-content:space-evenly;
     margin-bottom: 50px;
+}
+
+.menu-item{
+    padding: 13px;
+    cursor: pointer;
+}
+
+.menu-item:hover{
+    border-radius: 10px;
+    background-color: #80bfff;
+    transition: 1s;
+    cursor: pointer;
 }
 
 .menu-icon{
