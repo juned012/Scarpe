@@ -1,3 +1,4 @@
+// JavaScript for ImageSlider
 const images = ["img/first.webp", "img/second.webp", "img/third.jpg", "img/fourth.webp", "img/fifth.jpg", "img/sixth.jpg"];
 
 let index = 0;

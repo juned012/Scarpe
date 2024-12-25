@@ -72,7 +72,7 @@
 
 .slide {
     height: 460px;
-    width: 1200px;
+    width: 1150px;
     border-radius: 10px;
 }
 
@@ -109,7 +109,7 @@
 
 .brands {
     margin-top: 30px;
-    margin-left: 60px;
+    margin-left: 80px;
     font-size: 25px;
 }
 
@@ -138,4 +138,20 @@
 .text-1{
     margin: 32px 50px;
     color: grey;
+}
+
+.our-guarantees{
+    display: flex;
+    justify-content:space-evenly;
+    margin-bottom: 50px;
+}
+
+.menu-icon{
+    font-size: 32px;
+    margin: 10px;
+}
+
+.menu-text{
+    margin-bottom: 8px;
+    font-weight: bold;
 }
