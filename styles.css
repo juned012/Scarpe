@@ -259,7 +259,7 @@
 
   .prim-text{
     text-align: center;
-    padding: 10px;
+    margin: 15px;
   }
 
   .sec-text{
@@ -302,4 +302,9 @@
     text-align: center;
     color: grey;
     margin-bottom: 30px;
+}
+
+.footer{
+    height: 270px;
+    background-color:#dadaf1;
 }
