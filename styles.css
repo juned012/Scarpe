@@ -242,3 +242,64 @@
     background-color: grey;
     transition: 0.5s;
   }
+
+  .adv-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 40px;
+  }
+
+  .banner{
+    height: 300px;
+    width: 1100px;
+    border-radius: 8px;
+    object-fit: cover;
+  }
+
+  .prim-text{
+    text-align: center;
+    padding: 10px;
+  }
+
+  .sec-text{
+    text-align: center;
+    color: grey;
+  }
+
+  .Subscription-container{
+    display: flex;
+    justify-content:center;
+    margin: 15px;
+  }
+
+  .Subscription-box{
+    padding: 10px;
+    border-radius: 5px;
+    border: 1.5px solid grey;
+    width: 250px;
+    font-weight: bold;
+  }
+
+  .Subscription-button{
+    margin-left: 8px;
+    padding: 10px;
+    border-radius: 8px;
+    border: none;
+    width: 100px;
+    font-weight: bold;
+    color: white;
+    background-color: black;
+  }
+
+  .Subscription-button:hover {
+    background-color: grey;
+    transition: 1s;
+    cursor: pointer;
+}
+
+.sec-text-1{
+    text-align: center;
+    color: grey;
+    margin-bottom: 30px;
+}
