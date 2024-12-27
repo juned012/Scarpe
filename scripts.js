@@ -25,3 +25,4 @@ function previous() {
 }
 
 setInterval(next, 3000);
+

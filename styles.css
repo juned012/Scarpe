@@ -260,11 +260,14 @@
 .prim-text {
   text-align: center;
   margin: 15px;
+  text-indent: 50px;
 }
 
 .sec-text {
   text-align: center;
   color: grey;
+  text-indent: 50px;
+  margin-bottom: 20px;
 }
 
 .Subscription-container {
