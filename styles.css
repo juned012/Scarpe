@@ -324,14 +324,14 @@ footer {
   justify-content:space-around;
   flex-wrap: wrap;
   max-width: 1200px;
-  margin: 0 auto;
+  margin: 0;
   padding: 0 20px;
 }
 
 .footer-section {
   flex: 1;
   min-width: 100px;
-  margin: 15px;
+  margin: 35px;
 }
 
 .company-info {
@@ -352,7 +352,7 @@ footer {
 }
 
 .footer-section h3 {
-  font-size: 20px;
+  font-size: 15px;
   margin-bottom: 15px;
   text-transform: uppercase;
 }
@@ -364,12 +364,13 @@ footer {
 }
 
 .footer-section ul li a {
-  color: #ddd;
+  color: #5c5c8a;
   text-decoration: none;
+  font-weight: bold;
 }
 
 .footer-section ul li a:hover {
-  color: #f39c12;
+  color:black;
   text-decoration: underline;
 }
 
@@ -386,6 +387,7 @@ footer {
   border-top: 1px solid #444;
   padding-top: 15px;
   font-size: 14px;
-  color: #aaa;
+  color: #5c5c8a;
+  font-weight: bold;
 }
 
