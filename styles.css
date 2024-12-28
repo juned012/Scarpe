@@ -315,7 +315,7 @@
 footer {
   background-color:#e6e6ff;
   color: black;
-  padding: 15px 0;
+  padding: 20px 0;
   font-family: 'Roboto', sans-serif;
 }
 
@@ -323,20 +323,19 @@ footer {
   display: flex;
   justify-content:space-around;
   flex-wrap: wrap;
-  max-width: 1200px;
+  max-width: 1500px;
   margin: 0;
   padding: 0 20px;
 }
 
 .footer-section {
-  flex: 1;
-  min-width: 100px;
   margin: 35px;
+  margin-bottom: 60px;
 }
 
 .company-info {
   flex: 2;
-  text-align: left;
+  text-align:left;
 }
 
 .company-info h2 {
@@ -376,9 +375,7 @@ footer {
 
 .payment-icons img {
   width: 50px;
-  margin: 5px;
-  border-radius: 5px;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  margin-left: 20px;
 }
 
 .footer-bottom {
