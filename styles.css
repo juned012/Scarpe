@@ -312,7 +312,80 @@
   font-weight: lighter;
 }
 
-.footer {
-  height: 270px;
-  background-color: #dadaf1;
+footer {
+  background-color:#e6e6ff;
+  color: black;
+  padding: 15px 0;
+  font-family: 'Roboto', sans-serif;
 }
+
+.footer-container {
+  display: flex;
+  justify-content:space-around;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.footer-section {
+  flex: 1;
+  min-width: 100px;
+  margin: 15px;
+}
+
+.company-info {
+  flex: 2;
+  text-align: left;
+}
+
+.company-info h2 {
+  font-size: 28px;
+  color: black;
+  margin-bottom: 10px;
+}
+
+.company-info p {
+  font-size: 16px;
+  color: #5c5c8a;
+  font-weight: bold;
+}
+
+.footer-section h3 {
+  font-size: 20px;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+}
+
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+  line-height: 1.8;
+}
+
+.footer-section ul li a {
+  color: #ddd;
+  text-decoration: none;
+}
+
+.footer-section ul li a:hover {
+  color: #f39c12;
+  text-decoration: underline;
+}
+
+.payment-icons img {
+  width: 50px;
+  margin: 5px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.footer-bottom {
+  text-align: center;
+  margin-top: 20px;
+  border-top: 1px solid #444;
+  padding-top: 15px;
+  font-size: 14px;
+  color: #aaa;
+}
+
