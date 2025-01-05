@@ -22,13 +22,15 @@
 
 .nav-lists {
   display: flex;
-  gap: 20px;
+  align-items: center;
+  gap: 22px;
 }
 
 .nav-lists li {
   list-style: none;
 }
 .nav-lists a {
+  font-size: 15px;
   text-decoration: none;
   color: #333;
 }
@@ -48,6 +50,10 @@
   color: white;
   padding: 12px;
   cursor: pointer;
+}
+
+.search-btn:hover {
+  background-color: #54547e;
 }
 
 .container {
