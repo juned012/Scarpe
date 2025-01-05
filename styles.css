@@ -16,6 +16,16 @@
   padding: 35px 80px;
 }
 
+.logo-Container {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.logo-Container img {
+  width: 50px;
+}
+
 .logo-text {
   font-size: 28px;
 }
@@ -29,10 +39,15 @@
 .nav-lists li {
   list-style: none;
 }
+
 .nav-lists a {
   font-size: 15px;
   text-decoration: none;
   color: #333;
+}
+
+.nav-lists li a:hover {
+  color: #686767;
 }
 
 .search-bar {
