@@ -1,67 +1,53 @@
 * {
   margin: 0;
   padding: 0;
-  font-family: sans-serif
+  font-family: sans-serif;
+}
+
+.container-width {
+  margin: auto;
+  max-width: 1100px;
 }
 
 .navbar {
-  background-color: #fff;
-  padding: 25px 0;
-}
-
-.navbar ul {
-  list-style-type: none;
   display: flex;
-  justify-content: center;
-}
-
-.li {
-  margin: 6px 22px;
-}
-
-.navbar a {
-  text-decoration: none;
-  color: black;
-  font-size: 16px;
-  padding: 10px 20px;
-}
-
-.search {
-  padding: 8px;
-  margin-left: 30px;
-  margin-right: 10px;
-  margin-top: -5px;
-  border-radius: 5px;
-  width: 220px;
-  border: none;
-  background-color: #e0e0eb;
-}
-
-.search:hover {
-  border: 2.5px solid black;
-}
-
-.search-btn {
-  padding: 10px;
-  border: none;
-  border-radius: 5px;
-  color: white;
-  background-color: black;
-  margin: 0 10px;
-  width: 80px;
-  font-weight: bold;
-  cursor: pointer;
-}
-
-.search-btn:hover {
-  color: black;
-  background-color: #1a8cff;
-  transition: 1s;
-  cursor: pointer;
+  justify-content: space-between;
+  align-items: center;
+  padding: 35px 80px;
 }
 
 .logo-text {
-  padding: 0 40px;
+  font-size: 28px;
+}
+
+.nav-lists {
+  display: flex;
+  gap: 20px;
+}
+
+.nav-lists li {
+  list-style: none;
+}
+.nav-lists a {
+  text-decoration: none;
+  color: #333;
+}
+
+.search-bar {
+  outline: none;
+  border-radius: 5px;
+  border: none;
+  background-color: #e2e2e2;
+  padding: 12px 10px;
+}
+
+.search-btn {
+  border: none;
+  border-radius: 5px;
+  background-color: #5c5c8a;
+  color: white;
+  padding: 12px;
+  cursor: pointer;
 }
 
 .container {
@@ -313,15 +299,15 @@
 }
 
 footer {
-  background-color:#e6e6ff;
+  background-color: #e6e6ff;
   color: black;
   padding: 20px 0;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 .footer-container {
   display: flex;
-  justify-content:space-around;
+  justify-content: space-around;
   flex-wrap: wrap;
   max-width: 1500px;
   margin: 0;
@@ -335,7 +321,7 @@ footer {
 
 .company-info {
   flex: 2;
-  text-align:left;
+  text-align: left;
 }
 
 .company-info h2 {
@@ -369,7 +355,7 @@ footer {
 }
 
 .footer-section ul li a:hover {
-  color:black;
+  color: black;
   text-decoration: underline;
 }
 
@@ -387,4 +373,3 @@ footer {
   color: #5c5c8a;
   font-weight: bold;
 }
-
