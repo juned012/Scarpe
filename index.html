@@ -1,332 +1,266 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Scarpe : Discover Limited Sneakers Without Limitation</title>
     <link rel="stylesheet" href="./styles.css" />
-  </head>
+</head>
 
-  <body>
+<body>
     <!-- Navbar -->
-    <nav class="navbar container-width">
-      <div class="logo-Container">
-        <img src="./img/shoesLogo.png" alt="shoeslogo" />
-        <h1 class="logo-text">Scarpe</h1>
-      </div>
-      <ul class="nav-lists">
-        <li><a href="#">Most wanted</a></li>
-        <li><a href="#">New arrival</a></li>
-        <li><a href="#">Brands</a></li>
-        <li><a href="#">shoes</a></li>
-        <li><a href="#">design</a></li>
-      </ul>
-      <div>
-        <input type="text" placeholder="Search shoes..." class="search-bar" />
-        <button type="button" class="search-btn">Search</button>
-      </div>
+    <nav class="navbar">
+        <ul>
+            <h1 class="logo-text">Scarpe</h1>
+            <li class="li"><a href="#">Most wanted</a></li>
+            <li class="li"><a href="#">New arrival</a></li>
+            <li class="li"><a href="#">Brands</a></li>
+            <input type="text" placeholder="🔍 Search " class="search">
+            <button class="search-btn">Login</button>
+        </ul>
     </nav>
-    <!-- <nav class="navbar">
-       
-        
 
     <!-- Image Slider -->
     <div class="container">
-      <img src="./img/first.webp" class="slide" id="slide" />
-      <img
-        src="./img/next (1).png"
-        class="icon-action icon-next"
-        onclick="next()"
-      />
-      <img
-        src="./img/previous (1).png"
-        class="icon-action icon-prev"
-        onclick="previous()"
-      />
+        <img src="./img/first.webp" class="slide" id="slide" />
+        <img src="./img/next (1).png" class="icon-action icon-next" onclick="next()" />
+        <img src="./img/previous (1).png" class="icon-action icon-prev" onclick="previous()" />
     </div>
 
     <!-- Brands Logo -->
     <h1 class="brands">Brands</h1>
     <div class="logo-container">
-      <img src="./img/Nike-Logo.png" class="brand-logo" />
-      <img src="./img/puma-logo.png" class="brand-logo" />
-      <img src="./img/reebok-logo.png" class="brand-logo" />
-      <img src="./img/new-balance.png" class="brand-logo" />
-      <img src="./img/fila logo.webp" class="brand-logo" />
-      <img src="./img/adidas-logo-1.png" class="brand-logo" />
-      <img src="./img/asics-logo.webp" class="brand-logo" />
+        <img src="./img/Nike-Logo.png" class="brand-logo" />
+        <img src="./img/puma-logo.png" class="brand-logo" />
+        <img src="./img/reebok-logo.png" class="brand-logo" />
+        <img src="./img/new-balance.png" class="brand-logo" />
+        <img src="./img/fila logo.webp" class="brand-logo" />
+        <img src="./img/adidas-logo-1.png" class="brand-logo" />
+        <img src="./img/asics-logo.webp" class="brand-logo" />
     </div>
 
     <div class="adv">
-      <h1 class="text">
-        We provide best <br />
-        customer experiences
-      </h1>
-      <div class="vl"></div>
-      <p class="text-1">
-        We ensure our customer have the best shopping experience
-      </p>
+        <h1 class="text">We provide best <br> customer experiences</h1>
+        <div class="vl"></div>
+        <p class="text-1">We ensure our customer have the best shopping experience</p>
     </div>
 
     <!-- Our Guarantees -->
     <div class="our-guarantees">
-      <div class="menu-item">
-        <i class="fa-brands fa-buysellads menu-icon"></i>
-        <p class="menu-text">Original Products</p>
-        <p>
-          We provide money back guarantee <br />
-          if the product are not original.
-        </p>
-      </div>
 
-      <div class="menu-item">
-        <i class="fa-solid fa-face-smile-wink menu-icon"></i>
-        <p class="menu-text">Satisfaction Guarantee</p>
-        <p>
-          Exchange the product you've <br />
-          purchased if doesn't fit on you.
-        </p>
-      </div>
+        <div class="menu-item">
+            <i class="fa-brands fa-buysellads menu-icon"></i>
+            <p class="menu-text">Original Products</p>
+            <p>We provide money back guarantee <br>
+                if the product are not original.</p>
+        </div>
 
-      <div class="menu-item">
-        <i class="fa-solid fa-star menu-icon"></i>
-        <p class="menu-text">New Arrival Everyday</p>
-        <p>We updates our collection almost <br />everyday.</p>
-      </div>
+        <div class="menu-item">
+            <i class="fa-solid fa-face-smile-wink menu-icon"></i>
+            <p class="menu-text">Satisfaction Guarantee</p>
+            <p>Exchange the product you've <br>
+                purchased if doesn't fit on you.</p>
+        </div>
 
-      <div class="menu-item">
-        <i class="fa-solid fa-truck-fast menu-icon"></i>
-        <p class="menu-text">Fast & Free Shipping</p>
-        <p>We offer fast and free shipping <br />for our loyal customers.</p>
-      </div>
+        <div class="menu-item">
+            <i class="fa-solid fa-star menu-icon"></i>
+            <p class="menu-text">New Arrival Everyday</p>
+            <p>We updates our collection almost
+                <br>everyday.
+            </p>
+        </div>
+
+        <div class="menu-item">
+            <i class="fa-solid fa-truck-fast menu-icon"></i>
+            <p class="menu-text">Fast & Free Shipping</p>
+            <p>We offer fast and free shipping
+                <br>for our loyal customers.
+            </p>
+        </div>
+
     </div>
 
     <!-- Trending Now Cards Container -->
     <h2 class="brands">Trending Now</h2>
     <div class="card-container">
-      <div class="card">
-        <img src="./img/nb-sneakers.webp" alt="Image" class="card-image" />
-        <div class="card-content">
-          <h2 class="card-title">New Balance 327</h2>
-          <p class="card-description">
-            Vintage-inspired with a large "N" logo, lightweight EVA midsole, and
-            a stylish design for everyday wear.
-          </p>
-          <div class="card-price">
-            ₹5,599 &nbsp;
-            <del class="real-price">₹6,499</del>
-          </div>
-          <a href="#" class="card-button">Read More</a>
+        <div class="card">
+            <img src="./img/nb-sneakers.webp" alt="Image" class="card-image">
+            <div class="card-content">
+                <h2 class="card-title">New Balance 327</h2>
+                <p class="card-description">Vintage-inspired with a large "N" logo, lightweight EVA midsole, and a
+                    stylish design for everyday wear.</p>
+                <div class="card-price">
+                    ₹5,599 &nbsp;
+                    <del class="real-price">₹6,499</del>
+                </div>
+                <a href="#" class="card-button">Read More</a>
+            </div>
         </div>
-      </div>
 
-      <div class="card">
-        <img src="./img/adidas-gggggg.webp" alt="Image" class="card-image" />
-        <div class="card-content">
-          <h2 class="card-title">Adidas NMD_R1</h2>
-          <p class="card-description">
-            Stylish black sneaker with a modern design, featuring Boost
-            technology and a sock-like fit for all-day.
-          </p>
-          <div class="card-price">
-            ₹2,899 &nbsp;
-            <del class="real-price">₹3,499</del>
-          </div>
-          <a href="#" class="card-button">Read More</a>
+        <div class="card">
+            <img src="./img/adidas-gggggg.webp" alt="Image" class="card-image">
+            <div class="card-content">
+                <h2 class="card-title">Adidas NMD_R1</h2>
+                <p class="card-description">Stylish black sneaker with a modern design, featuring Boost technology and a
+                    sock-like fit for all-day.</p>
+                <div class="card-price">
+                    ₹2,899 &nbsp;
+                    <del class="real-price">₹3,499</del>
+                </div>
+                <a href="#" class="card-button">Read More</a>
+            </div>
         </div>
-      </div>
 
-      <div class="card">
-        <img src="./img/nike-sneakers.png" alt="Image" class="card-image" />
-        <div class="card-content">
-          <h2 class="card-title">Nike Air Max 1</h2>
-          <p class="card-description">
-            A classic black sneaker with visible Air cushioning in the sole for
-            comfort and iconic style.
-          </p>
-          <div class="card-price">
-            ₹6,999 &nbsp;
-            <del class="real-price">₹8,499</del>
-          </div>
-          <a href="#" class="card-button">Read More</a>
+        <div class="card">
+            <img src="./img/nike-sneakers.png" alt="Image" class="card-image">
+            <div class="card-content">
+                <h2 class="card-title">Nike Air Max 1 </h2>
+                <p class="card-description">A classic black sneaker with visible Air cushioning in the sole for comfort
+                    and iconic style.</p>
+                <div class="card-price">
+                    ₹6,999 &nbsp;
+                    <del class="real-price">₹8,499</del>
+                </div>
+                <a href="#" class="card-button">Read More</a>
+            </div>
         </div>
-      </div>
     </div>
 
     <!-- New Arrival Cards Added -->
     <h2 class="brands">New Arrival</h2>
     <div class="card-container">
-      <div class="card">
-        <img
-          src="./img/SSS2_AS1201A792_104_4550457712934_2.webp"
-          alt="Image"
-          class="card-image"
-        />
-        <div class="card-content">
-          <h2 class="card-title">Asics GT-2000</h2>
-          <p class="card-description">
-            A stability shoe a responsive midsole, designed to support
-            overpronators during runs.
-          </p>
-          <div class="card-price">
-            ₹7,599 &nbsp;
-            <del class="real-price">₹9,499</del>
-          </div>
-          <a href="#" class="card-button">Read More</a>
+        <div class="card">
+            <img src="./img/SSS2_AS1201A792_104_4550457712934_2.webp" alt="Image" class="card-image">
+            <div class="card-content">
+                <h2 class="card-title">Asics GT-2000 </h2>
+                <p class="card-description">A stability shoe a responsive midsole, designed
+                    to support overpronators during runs.</p>
+                <div class="card-price">
+                    ₹7,599 &nbsp;
+                    <del class="real-price">₹9,499</del>
+                </div>
+                <a href="#" class="card-button">Read More</a>
+            </div>
         </div>
-      </div>
 
-      <div class="card">
-        <img
-          src="./img/Smashic-Women's-Sneakers.avif"
-          alt="Image"
-          class="card-image"
-        />
-        <div class="card-content">
-          <h2 class="card-title">Puma RS-X3</h2>
-          <p class="card-description">
-            A bold, futuristic sneaker with the RS technology for responsive
-            cushioning and a dynamic, chunky silhouette.
-          </p>
-          <div class="card-price">
-            ₹3,199 &nbsp;
-            <del class="real-price">₹4,499</del>
-          </div>
-          <a href="#" class="card-button">Read More</a>
+        <div class="card">
+            <img src="./img/Smashic-Women's-Sneakers.avif" alt="Image" class="card-image">
+            <div class="card-content">
+                <h2 class="card-title">Puma RS-X3</h2>
+                <p class="card-description">A bold, futuristic sneaker with the RS technology for responsive cushioning
+                    and a dynamic, chunky silhouette.</p>
+                <div class="card-price">
+                    ₹3,199 &nbsp;
+                    <del class="real-price">₹4,499</del>
+                </div>
+                <a href="#" class="card-button">Read More</a>
+            </div>
         </div>
-      </div>
 
-      <div class="card">
-        <img
-          src="./img/NIKE+REVOLUTION+7 (1).png"
-          alt="Image"
-          class="card-image"
-        />
-        <div class="card-content">
-          <h2 class="card-title">Nike Roshe One</h2>
-          <p class="card-description">
-            Simple and stylish black sneaker with a mesh upper and cushioned
-            midsole, perfect for casual wear.
-          </p>
-          <div class="card-price">
-            ₹5,999 &nbsp;
-            <del class="real-price">₹6,499</del>
-          </div>
-          <a href="#" class="card-button">Read More</a>
+        <div class="card">
+            <img src="./img/NIKE+REVOLUTION+7 (1).png" alt="Image" class="card-image">
+            <div class="card-content">
+                <h2 class="card-title">Nike Roshe One </h2>
+                <p class="card-description">Simple and stylish black sneaker with a mesh upper and cushioned midsole,
+                    perfect for casual wear.</p>
+                <div class="card-price">
+                    ₹5,999 &nbsp;
+                    <del class="real-price">₹6,499</del>
+                </div>
+                <a href="#" class="card-button">Read More</a>
+            </div>
         </div>
-      </div>
     </div>
 
     <div class="adv-container">
-      <img src="./img/cbh-web-banner-kids.webp" class="banner" />
+        <img src="./img/cbh-web-banner-kids.webp" class="banner" />
     </div>
 
     <!-- Subscription Box -->
-    <h1 class="prim-text">
-      Subscribe to our newsletter to get updates <br />
-      to our latest collections
-    </h1>
-    <h4 class="sec-text">
-      Get 20% off on your first order just by subscribing to our newsletter
-    </h4>
+    <h1 class="prim-text">Subscribe to our newsletter to get updates <br> to our latest collections</h1>
+    <h4 class="sec-text">Get 20% off on your first order just by subscribing to our newsletter</h4>
 
     <div class="Subscription-container">
-      <input
-        type="text"
-        placeholder="Enter your email"
-        class="Subscription-box"
-      />
-      <button class="Subscription-button">Subscribe</button>
+        <input type="text" placeholder="Enter your email" class="Subscription-box">
+        <button class="Subscription-button">Subscribe</button>
     </div>
 
     <h4 class="sec-text-1">
-      You will be able to unsubscribe at any time.
-      <br />
-      &nbsp; Read our Privacy Policy <a href="#">here</a> 🖤.
+        You will be able to unsubscribe at any time.
+        <br> &nbsp; Read our Privacy Policy <a href="#">here</a> 🖤.
     </h4>
 
     <!-- Footer section -->
     <div class="footer">
-      <!DOCTYPE html>
-      <html lang="en">
-        <head>
-          <meta charset="UTF-8" />
-          <meta
-            name="viewport"
-            content="width=device-width, initial-scale=1.0"
-          />
-          <title>Footer Example</title>
-          <link rel="stylesheet" href="styles.css" />
-        </head>
-        <body>
-          <!-- Footer Section -->
-          <footer>
-            <div class="footer-container">
-              <!-- Company Info -->
-              <div class="footer-section company-info">
-                <h2>Scarpe</h2>
-                <p>
-                  Specializes in providing high-quality, stylish products for
-                  your wardrobe.
-                </p>
-              </div>
+        <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Footer Example</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
 
-              <!-- Shop Section -->
-              <div class="footer-section">
-                <h3>Shop</h3>
-                <ul>
-                  <li><a href="#">All Collections</a></li>
-                  <li><a href="#">Winter Edition</a></li>
-                  <li><a href="#">Discount</a></li>
-                </ul>
-              </div>
+    <!-- Footer Section -->
+    <footer>
+        <div class="footer-container">
+          <!-- Company Info -->
+          <div class="footer-section company-info">
+            <h2>Scarpe</h2>
+            <p>Specializes in providing high-quality, stylish products for your wardrobe.</p>
+          </div>
 
-              <!-- Company Section -->
-              <div class="footer-section">
-                <h3>Company</h3>
-                <ul>
-                  <li><a href="#">About Us</a></li>
-                  <li><a href="#">Contact Us</a></li>
-                  <li><a href="#">Affiliates</a></li>
-                </ul>
-              </div>
+          <!-- Shop Section -->
+          <div class="footer-section">
+            <h3>Shop</h3>
+            <ul>
+              <li><a href="#">All Collections</a></li>
+              <li><a href="#">Winter Edition</a></li>
+              <li><a href="#">Discount</a></li>
+            </ul>
+          </div>
 
-              <!-- Support Section -->
-              <div class="footer-section">
-                <h3>Support</h3>
-                <ul>
-                  <li><a href="#">FAQs</a></li>
-                  <li><a href="#">Shipping & Returns</a></li>
-                  <li><a href="#">Terms to Use</a></li>
-                </ul>
-              </div>
+          <!-- Company Section -->
+          <div class="footer-section">
+            <h3>Company</h3>
+            <ul>
+              <li><a href="#">About Us</a></li>
+              <li><a href="#">Contact Us</a></li>
+              <li><a href="#">Affiliates</a></li>
+            </ul>
+          </div>
 
-              <!-- Payment Methods -->
-              <div class="footer-section">
-                <h3>Payment Methods</h3>
-                <div class="payment-icons">
-                  <img src="./img/visa.png" alt="Visa" />
-                  <img
-                    src="./img/american-express.png"
-                    alt="american-express"
-                  />
-                  <img src="./img/card (1).png" alt="Mastercard" />
-                </div>
-              </div>
+          <!-- Support Section -->
+          <div class="footer-section">
+            <h3>Support</h3>
+            <ul>
+              <li><a href="#">FAQs</a></li>
+              <li><a href="#">Shipping & Returns</a></li>
+              <li><a href="#">Terms to Use</a></li>
+            </ul>
+          </div>
+
+          <!-- Payment Methods -->
+          <div class="footer-section">
+            <h3>Payment Methods</h3>
+            <div class="payment-icons">
+              <img src="./img/visa.png" alt="Visa">
+              <img src="./img/american-express.png" alt="american-express">
+              <img src="./img/card (1).png" alt="Mastercard">
             </div>
+          </div>
+        </div>
 
-            <div class="footer-bottom">
-              <p>Copyright &copy; 2024 Scarpe. All rights reserved.</p>
-            </div>
-          </footer>
+        <div class="footer-bottom">
+          <p>Copyright &copy; 2024 Scarpe. All rights reserved.</p>
+        </div>
+      </footer>
+      
+      
+    <script src="https://kit.fontawesome.com/af8a2b1519.js" crossorigin="anonymous"></script>
+    <script src="./scripts.js"></script>
+</body>
 
-          <script
-            src="https://kit.fontawesome.com/af8a2b1519.js"
-            crossorigin="anonymous"
-          ></script>
-          <script src="./scripts.js"></script>
-        </body>
-      </html>
-    </div>
-  </body>
 </html>
