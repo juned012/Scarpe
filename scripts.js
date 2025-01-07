@@ -24,5 +24,5 @@ function previous() {
     slide.src = images[index];
 }
 
-setInterval(next, 3000);
+setInterval(next, 4000);
 
