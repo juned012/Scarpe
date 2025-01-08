@@ -18,7 +18,7 @@
             <li class="li"><a href="#">New arrival</a></li>
             <li class="li"><a href="#">Brands</a></li>
             <input type="text" placeholder="🔍 Search " class="search">
-            <button class="search-btn">Signup</button>
+            <button class="search-btn" onclick="openModel()">Signup</button>
         </ul>
     </nav>
 
@@ -29,10 +29,10 @@
         <img src="./img/previous (1).png" class="icon-action icon-prev" onclick="previous()" />
     </div>
 
-    <div class="overlay">
+    <div class="overlay" id="overlay">
         <div class="model">
             <p class="form-heading">SignUp</p>
-            <img src="./img/close.png" class="close-icon" alt="close"/>
+            <img src="./img/close.png" class="close-icon" alt="close" onclick="closeModel()"/>
             <form class="form">
                 <input type="text" placeholder="Enter Name" class="form-input" required>
                 <input type="email" placeholder="Enter Email" class="form-input" required>
@@ -41,7 +41,7 @@
                     <input type="checkbox" />&nbsp;I agree to Scarpe's Term and Conditions <br>
                 </label>
             </form>
-            <button type="button" class="btn-signup">Create account</button>
+            <button type="button" class="btn-signup" onclick="closeModel()">Create account</button>
             <p class="switch-form">
                 Already have an account? <a href="#" id="show-login">Login</a>
             </p>

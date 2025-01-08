@@ -26,3 +26,14 @@ function previous() {
 
 setInterval(next, 4000);
 
+// JavaScript for Dialoguebox
+function openModel(){
+    const overlayElement = document.getElementById('overlay');
+    overlayElement.style.display = 'flex';
+}
+
+function closeModel(){
+    const overlayElement = document.getElementById('overlay');
+    overlayElement.style.display = 'none';
+}
+
