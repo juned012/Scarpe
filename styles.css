@@ -73,7 +73,6 @@
 
 .model {
   background-color: white;
-  height: 400px;
   padding: 20px 30px;
   border-radius: 8px;
 }
@@ -86,10 +85,41 @@
 }
 
 .form-input {
-  width: 300px;
+  width: 280px;
   margin: 10px 0;
   font-size: 20px;
   padding: 5px 10px;
+}
+
+.checkbox{
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+  margin-bottom: 13px;
+}
+
+.btn-Login{
+  padding: 9px;
+  width: 305px;
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+  color: #fff;
+  background-color: #333;
+  cursor: pointer;
+}
+
+.switch-form {
+  margin-top: 13px;
+}
+
+.switch-form a {
+  color: blue;
+  text-decoration: none;
+}
+
+.switch-form a:hover {
+  text-decoration: underline;
 }
 
 .logo-text {
