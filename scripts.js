@@ -35,6 +35,7 @@ function openModel(){
 function closeModel(){
     const overlayElement = document.getElementById('overlay');
     overlayElement.style.display = 'none';
+    alert("Signup Successfully 🎉");
 }
 
 //Subscription added Notification.
