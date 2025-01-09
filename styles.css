@@ -37,10 +37,6 @@
   background-color: #e0e0eb;
 }
 
-.search:hover {
-  border: 2.5px solid black;
-}
-
 .search-btn {
   padding: 10px;
   border: none;
@@ -122,7 +118,7 @@
   border-radius: 5px;
   font-size: 18px;
   color: #fff;
-  background-color: #333;
+  background-color: black;
   cursor: pointer;
 }
 

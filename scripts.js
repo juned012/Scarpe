@@ -37,3 +37,7 @@ function closeModel(){
     overlayElement.style.display = 'none';
 }
 
+//Subscription added Notification.
+function newsletter(){
+    alert("Scarpe's NewsLetter Subscription Added ✅ ");
+}
