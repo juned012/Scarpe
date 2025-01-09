@@ -179,6 +179,7 @@
 .logo-container {
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
   margin-bottom: 50px;
 }
 
@@ -321,8 +322,7 @@
 .adv-container {
   display: flex;
   justify-content: center;
-  margin-top: 40px;
-  margin-bottom: 40px;
+  margin: 40px 20px;
 }
 
 .banner {
@@ -392,13 +392,13 @@ footer {
   color: black;
   padding: 20px 0;
   font-family: 'Roboto', sans-serif;
+  width: 100%;
 }
 
 .footer-container {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
-  max-width: 1500px;
   margin: 0;
   padding: 0 20px;
 }
