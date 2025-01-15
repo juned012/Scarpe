@@ -1,5 +1,9 @@
 // JavaScript for ImageSlider
-const images = ["img/first.webp", "img/third.jpg", "img/second.webp", "img/fourth.webp", "img/fifth.jpg", "img/sixth.jpg"];
+const images = [
+    "img/Home-imgs/first.webp", "img/Home-imgs/third.jpg",
+    "img/Home-imgs/second.webp", "img/Home-imgs/fourth.webp",
+    "img/Home-imgs/fifth.jpg", "img/Home-imgs/sixth.jpg"
+];
 
 let index = 0;
 const slide = document.getElementById('slide');
@@ -35,7 +39,6 @@ function openModel(){
 function closeModel(){
     const overlayElement = document.getElementById('overlay');
     overlayElement.style.display = 'none';
-    alert("Signup Successfully 🎉");
 }
 
 //Subscription added Notification.

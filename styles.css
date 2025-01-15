@@ -5,7 +5,6 @@
 }
 
 .navbar {
-  background-color: #fff;
   padding: 25px 0;
 }
 
@@ -18,22 +17,6 @@
 
 .li {
   margin: 6px 22px;
-}
-
-.li::after{
-  content: '';
-  position: absolute;
-  width: 0px;
-  height: 5px;
-  left: 50%;
-  bottom:0;
-  background-color: white;
-  transition: all ease-in-out .2s;
-}
-
-.li:hover::after{
-  width: 100%;
-  left: 0;
 }
 
 .navbar a {
@@ -54,7 +37,7 @@
   background-color: #e0e0eb;
 }
 
-.search-btn {
+.Signup-btn {
   padding: 10px;
   border: none;
   border-radius: 5px;
@@ -66,10 +49,14 @@
   cursor: pointer;
 }
 
-.search-btn:hover {
+.Signup-btn:hover {
   background-color: grey;
   transition: 1s;
   cursor: pointer;
+}
+
+.logo-text {
+  padding: 0 40px;
 }
 
 .overlay {
@@ -137,23 +124,6 @@
   color: #fff;
   background-color: black;
   cursor: pointer;
-}
-
-.switch-form {
-  margin-top: 13px;
-}
-
-.switch-form a {
-  color: blue;
-  text-decoration: none;
-}
-
-.switch-form a:hover {
-  text-decoration: underline;
-}
-
-.logo-text {
-  padding: 0 40px;
 }
 
 .container {
