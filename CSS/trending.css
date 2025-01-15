@@ -127,3 +127,79 @@
   background-color: grey;
   transition: 0.5s;
 }
+
+footer {
+  background-color: #e6e6ff;
+  color: black;
+  padding: 20px 0;
+  font-family: 'Roboto', sans-serif;
+  width: 100%;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0 20px;
+}
+
+.footer-section {
+  margin: 35px;
+  margin-bottom: 60px;
+}
+
+.company-info {
+  flex: 2;
+  text-align: left;
+}
+
+.company-info h2 {
+  font-size: 28px;
+  color: black;
+  margin-bottom: 10px;
+}
+
+.company-info p {
+  font-size: 16px;
+  color: #5c5c8a;
+  font-weight: bold;
+}
+
+.footer-section h3 {
+  font-size: 15px;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+}
+
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+  line-height: 1.8;
+}
+
+.footer-section ul li a {
+  color: #5c5c8a;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.footer-section ul li a:hover {
+  color: black;
+  text-decoration: underline;
+}
+
+.payment-icons img {
+  width: 50px;
+  margin-left: 20px;
+}
+
+.footer-bottom {
+  text-align: center;
+  margin-top: 20px;
+  border-top: 1px solid #444;
+  padding-top: 15px;
+  font-size: 14px;
+  color: #5c5c8a;
+  font-weight: bold;
+}
