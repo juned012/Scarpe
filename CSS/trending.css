@@ -28,6 +28,11 @@
   padding: 10px 20px;
 }
 
+.navbar a:hover{
+  background-color:#80bfff;
+  transition: 0.8s;
+}
+
 .search {
   padding: 8px;
   margin-left: 30px;
