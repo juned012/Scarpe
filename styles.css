@@ -394,3 +394,40 @@ footer {
   color: #5c5c8a;
   font-weight: bold;
 }
+
+.navIcon {
+  display: none;
+}
+
+@media (max-width: 980px) {
+  .navbar {
+    padding: 35px 30px;
+  }
+  
+  .nav-lists {
+    gap: 16px;
+  }
+
+  .search-box {
+    display: none;
+  }
+}
+
+@media (max-width: 624px) {
+  .navbar {
+    padding: 35px 20px;
+  }
+
+  .navIcon {
+    display: block;
+  }
+
+  .navIcon img {
+    width: 30px;
+    cursor: pointer;
+  }
+
+  .nav-lists {
+    display: none;
+  }
+}
